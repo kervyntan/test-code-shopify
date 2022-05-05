@@ -1,0 +1,262 @@
+<body>
+  <style>
+    .nutri-health-1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    * {
+      line-height: 1.5em;
+    }
+
+    ul,
+    li {
+      margin-left: 20px;
+    }
+
+    .small {
+      display: none;
+    }
+  
+    #image {
+      width: 400px;
+      margin-left : 40px;
+    }
+
+    .text-box-health > p,
+    .text-box-health > h4 {
+      font-weight: bold;
+      font-size: 15px;
+      
+      margin: auto;
+      color: black;
+    }
+
+    .text-box-health > ul {
+      font-size: 15px;
+      margin: auto;
+      color: black;
+    }
+
+    .text-box-1 > p,
+    .text-box-1 > h4 {
+      font-weight: bold;
+      font-size: 15px;
+      margin: auto;
+
+      color: black;
+    }
+
+    .text-box-1 > ul {
+      font-size: 15px;
+      margin: auto;
+      color: black;
+    }
+
+    .heading-health {
+      margin: auto;
+      color: #0c4a35;
+      font-size: 43px;
+      line-height: 1.2em;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    .text-box-health,
+    .text-box-1 {
+      width: 50%;
+      margin-top: 80px;
+    }
+
+    .image-box {
+      margin-top: 120px;
+    }
+
+    #nutri-health {
+      color: #e28f20;
+      margin-top: 20px;
+      font-size: 20px;
+      margin: auto;
+      font-weight: bold;
+    }
+    button {
+      background-color: transparent;
+      border-radius: 25px;
+      border: 1px solid #e28f20;
+      color: #e28f20;
+      height: 20px;
+      padding: 10px 10px 30px 10px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+
+    #health-btn:hover {
+      background-color: #e28f20;
+      color: white;
+    }
+
+    ul {
+      list-style-type: circle;
+    }
+
+    @media only screen and (min-width: 320px) and (max-width: 764px) {
+      .nutri-health-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .small {
+        display: block;
+      }
+
+      .large {
+        display: none;
+      }
+
+      .text-box-health > p,
+      .text-box-health > h4 {
+        font-weight: bold;
+        font-size: 15px;
+        margin-left : 30px;
+        margin: auto;
+        color: black;
+      }
+
+      .text-box-health > ul {
+        font-size: 15px;
+        margin-left : 30px;
+        margin: auto;
+        color: black;
+      }
+
+      .heading-health {
+        margin: auto;
+        color: #0c4a35;
+        font-size: 43px;
+        line-height: 1.2em;
+        margin-bottom: 20px;
+        font-weight: 700;
+      }
+
+      .text-box-health,
+      .text-box-1 {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 40px;
+      }
+
+      #nutri-health {
+        color: #e28f20;
+        margin-top: 20px;
+        font-size: 18px;
+        margin: auto;
+        font-weight: bold;
+      }
+
+      #image {
+        width: 300px;
+        margin: auto;
+      }
+
+      .image-box {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+      }
+    }
+  </style>
+
+  <div class="nutri-health-1">
+    <div class="image-box">
+      <img id="image" class="small" src="https://cdn.shopify.com/s/files/1/0606/0703/7648/files/nutranourish-health_f2b92590-95c2-479a-b482-c87e7fb6cbf3_256x256_crop_center.png?v=1648112017">
+    </div>
+
+    <div class="text-box-health">
+      <h1 class="heading-health">
+        NutraNourish
+        <br>
+        HEALTH
+      </h1>
+
+      <p>
+        This is a holistic genetic test that assesses the gene variations that
+        are known to have significant effect on health and on individual’s
+        susceptibility to chronic health diseases such as cholesterol,
+        cardiovascular disease, diabetes, cancer, osteoporosis, lactose
+        intolerance, etc. An early detection of possible predispositions can
+        allow one to take necessary preventive measures or manage these diseases
+        better. NutraNourish HEALTH test is designed to optimise well-being and
+        health by personalising lifestyle and diet choices and, where necessary,
+        using supplements tailored to offset any particular nutritional deficit
+        based on specific gene variants.
+      </p>
+      <br>
+      <h4>Here are some areas that NutraNourish HEALTH uncovers:</h4>
+
+      <ul>
+        <li class="item">Insulin Sensitivity</li>
+
+        <li class="item">Inflammation</li>
+
+        <li class="item">Methylation</li>
+
+        <li class="item">Detoxification</li>
+
+        <li class="item">Oxidative stress</li>
+
+        <li class="item">Cholesterol metabolism and responsiveness to diet</li>
+
+        <li class="item">
+          Food responsiveness such as sensitivities to lactose, caffeine and
+          salt intake
+        </li>
+
+        <li class="item">Bone health</li>
+      </ul>
+
+      <br>
+
+      <p></p>
+      <h4>The NutraNourish HEALTH Report provides:</h4>
+
+      <ul>
+        <li class="item">
+          The level of impact of any genetic variants identified
+        </li>
+
+        <li class="item">An explanation of their impact on health</li>
+
+        <li class="item">
+          Appropriate nutritional, lifestyle, supplement recommendations
+        </li>
+
+        <li class="item">
+          Possible Functional medicine interventions to optimize therapeutics to
+          prevent and manage chronic health disease
+        </li>
+      </ul>
+
+      <p id="nutri-health">
+        NutraNourish Health Kit, SGD$540
+        <br>
+        <a>
+          <button id="health-btn" type="submit">Add To Cart</button>
+        </a>
+      </p>
+    </div>
+
+    <div class="image-box">
+      <img id="image" class="large" src="https://cdn.shopify.com/s/files/1/0606/0703/7648/files/nutranourish-health_f2b92590-95c2-479a-b482-c87e7fb6cbf3_256x256_crop_center.png?v=1648112017">
+    </div>
+
+    <!--
+      <form method="post" action="/cart">
+        <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+      
+        <input type="submit" value="Add To Cart" id="health-btn">
+      </form>
+       -->
+  </div>
+</body>

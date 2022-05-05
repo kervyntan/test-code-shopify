@@ -1,0 +1,137 @@
+    <style>
+    * {
+        font-family: Montserrat;
+        line-height: 1.3125rem;
+        box-sizing: border-box;
+    }
+
+    .big-icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-1 > p {
+        color : white;
+    }
+
+    .text-align {
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .relative {
+        position: absolute;
+        margin: 0 auto;
+        text-align: center;
+        left: 0;
+        right: 0;
+        bottom: 2.5%;
+        max-width: 250px;
+        z-index: 9;
+    }
+
+    .absolute {
+        position: relative;
+    }
+
+    .icon {
+        margin-bottom: 20px;
+    }
+
+    .img-1 {
+        width : 375px;
+    }
+
+    .row-1,
+    .row-2,
+    .row-3 {
+        display : flex;
+        flex-direction: column;
+    }
+
+    @media (min-width: 769px) {
+        .row-1,
+        .row-2,
+        .row-3 {
+        flex-direction: row;
+        gap : 10px;
+        justify-content : center;
+        }
+    }
+    </style>
+
+    <body>
+    <section class="big-icons">
+        <div class="big-icons absolute">
+        <h1 class="text-align heading">
+            Preventative, Personalised, Holistic Healthcare based on your genes
+        </h1>
+        <div class="row-1 text-align">
+            <div class="icon absolute" id="ic-1">
+            <img
+                class="img-1"
+                src="https://cdn.shopify.com/s/files/1/0606/0703/7648/files/03_methylation_256x256_crop_center.png?v=1651720919"
+            />
+            <p class="relative">NutraNourish Health</p>
+            </div>
+            <div class="icon absolute" id="ic-2">
+            <img class="img-1"
+                src="https://cdn.shopify.com/s/files/1/0606/0703/7648/files/03_diet_8967e6de-78ef-4967-9eca-53e763c5f34d_256x256_crop_center.png?v=1651720919"
+            />
+            <p class="relative">NutraNourish Diet</p>
+            </div>
+            <div class="icon absolute" id="ic-3">
+            <img class="img-1"
+                src="https://cdn.shopify.com/s/files/1/0606/0703/7648/files/03_sport_256x256_crop_center.png?v=1651720919"
+            />
+            <p class="relative">NutraNourish Sport</p>
+            </div>
+        </div>
+
+        <div class="row-2 text-align">
+            <div class="icon absolute" id="ic-4">
+            <img class="img-1"
+                src="https://cdn.shopify.com/s/files/1/0606/0703/7648/files/03_skin_2cb8d12d-fecc-4b25-93d2-ba033d330f3a_256x256_crop_center.png?v=1651720919"
+            />
+            <p class="relative">NutraNourish Skin</p>
+            </div>
+            <div class="icon absolute" id="ic-5">
+            <img class="img-1"
+                src="https://cdn.shopify.com/s/files/1/0606/0703/7648/files/03_mind_256x256_crop_center.png?v=1651720918"
+            />
+            <p class="relative">NutraNourish Mind</p>
+            </div>
+            <div class="icon absolute" id="ic-6">
+            <img class="img-1"
+                src="https://cdn.shopify.com/s/files/1/0606/0703/7648/files/03_oestrogen_256x256_crop_center.png?v=1651720918"
+            />
+            <p class="relative">NutraNourish Oestrogen</p>
+            </div>
+        </div>
+
+        <div class="row-3 text-align">
+            <div class="icon absolute" id="ic-7">
+            <img class="img-1"
+                src="https://cdn.shopify.com/s/files/1/0606/0703/7648/files/03_pregnancy_256x256_crop_center.png?v=1651720919"
+            />
+            <p class="relative">NutraNourish Pregnancy</p>
+            </div>
+            <div class="icon absolute" id="ic-8">
+            <img class="img-1"
+                src="https://cdn.shopify.com/s/files/1/0606/0703/7648/files/03_medcheck_256x256_crop_center.png?v=1651720918"
+            />
+            <p class="relative">NutraNourish Medcheck</p>
+            </div>
+            <div class="icon absolute" id="ic-9">
+            <img class="img-1"
+                src="https://cdn.shopify.com/s/files/1/0606/0703/7648/files/03_methylation_256x256_crop_center.png?v=1651720919"
+            />
+            <p class="relative">NutraNourish Methylation</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    </body>
